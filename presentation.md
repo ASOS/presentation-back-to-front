@@ -755,6 +755,8 @@ Similarly to what we used ETags for earlier, the solution is quite simple.
 
 Each transaction should be accompanied by a unique identifier, preferably a UUID, so that the server can decide what to do with follow up duplicate calls.
 
+This ID should be tied to the data that the transaction contains and the session id (which will allow the customers to actually perform the same transaction if they choose to tweet the same thing twice)
+
 Depending on your usecase the server will tell you that it accepted the call implying it was already accepted earlier or simply tell you that it succeeded as if it was the first time it saw it.
 
 From your point of view, you performed your transaction as intended and it only happened once.
@@ -1005,7 +1007,7 @@ So complicated, how do we make sure it all works?
 * Optimistic Locking
 * Eventual Consistency
 * NoSQL
-* Non blocking IO
+* Non blocking sysIO
 * Round Robin
 * Encryption at rest/In transit - End to End Encryption
 * Salting
