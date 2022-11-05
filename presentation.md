@@ -3,7 +3,7 @@ title: Back to front
 marp: true
 theme: tech-training
 paginate: false
-footer: '![w:20px](./images/twitter.png) @geeky_android'
+footer: '![w:20px](./images/mastodon.png) @geeky_android@androiddev.social'
 ---
 
 <!-- _class: black -->
