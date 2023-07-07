@@ -1020,13 +1020,7 @@ So complicated, how do we make sure it all works?
 # Q&A
 
 <div class="columns">
-<div>
 
-## Raffle
-
-![](https://chart.googleapis.com/chart?cht=qr&chs=350x350&chl=https%3A%2F%2Fforms.office.com%2Fpages%2Fresponsepage.aspx%3Fid%3DLDL4Su6AGUipzoY9WvvqHOL7EXBY_QJIrvRUs92qzgVUNTRLTUxZUERBTEIzRlNKVVVXU0xUR1MwWi4u)
-
-</div>
 <div>
 
 ## Slides
